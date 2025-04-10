@@ -8,6 +8,7 @@ function Listar() {
   const [tipoSeleccionado, setTipoSeleccionado] = useState('All'); // Estado para el tipo de Pokémon
   const navigate = useNavigate(); // Hook para la navegación
   
+  
   // useEffect que se ejecuta cuando tipoSeleccionado cambia
   useEffect(() => {
     const obtenerDatos = async () => {
